@@ -1,0 +1,62 @@
+.dashboard-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-content {
+    margin-top: 70px;
+    display: flex;
+    flex: 1;
+    margin-bottom: 100px;
+}
+
+.left-panel {
+    border: none;
+    border-right: 1px solid #ddd;
+    border-radius: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 20px!important;
+    padding-left: 35px!important;
+}
+
+.right-content {
+    flex: 1;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.user-metrics {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.panel-content {
+    width: 200px;
+}
+
+.panel-list li a {
+    margin-left: 15px;
+}
+
+.dashboard-welcome {
+    margin-bottom: 50px;
+}
+
+.dashboard-subheadings {
+    margin-bottom: 30px;
+}
+
+/* Add other styling as needed */

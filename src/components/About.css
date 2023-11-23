@@ -1,0 +1,17 @@
+.about-main-head {
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#introduction,
+#features,
+#benefits {
+    margin-bottom: 30px;
+}
+
+#features li,
+#benefits li {
+    margin-bottom: 10px;
+}

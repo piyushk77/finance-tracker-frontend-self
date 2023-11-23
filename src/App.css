@@ -1,0 +1,7 @@
+.app-main {
+    overflow: hidden;
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: -1px 20px 35px 0px gray;
+    zoom: 90%;
+}

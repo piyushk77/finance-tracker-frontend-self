@@ -1,0 +1,83 @@
+.income-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.income-main-head {
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.income-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.income-form select,
+.income-form input,
+.income-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.payment-form {
+    font-family: Arial, sans-serif;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-option {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.payment-option input[type="radio"] {
+    margin-left: 10px;
+    padding: 0;
+}
+
+.payment-option label {
+    margin-right: 100px;
+    text-align: left;
+    width: 60%;
+}
+
+.form-button-container {
+    width: 100%;
+    /* Set the width of the container */
+    text-align: center;
+    /* Center the content horizontally */
+}
+
+.form-button {
+    margin: auto;
+    display: block;
+    background-color: #ff689d;
+    border-color: #ff689d;
+}
+
+.form-button:hover {
+    background-color: #ff689d;
+    border-color: #ff689d;
+}
+
+.form-button:active {
+    background-color: #98276c !important;
+    border-color: #98276c !important;
+}
