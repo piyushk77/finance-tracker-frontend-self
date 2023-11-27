@@ -14,7 +14,7 @@ This is the frontend division of the personal finance tracker application under 
     If you haven't cloned the project yet, you can do so by running the following command:
 
     ```shell
-    git clone git@github.com: piyushk77/finance-tracker-self.git
+    git clone git@github.com: piyushk77/finance-tracker-frontend-self.git
     ```
 
 2. **Pull Recent Changes:**
