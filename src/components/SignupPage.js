@@ -41,7 +41,7 @@ function SignupPage() {
     try {
       // Exclude confirmPassword from the data sent to the server
       const { confirmPassword, ...postData } = formData;
-      const response = await axios.post('https://finance-tracker-production.up.railway.app/api/auth/register', postData);
+      const response = await axios.post('https://finance-tracker-4yvj.onrender.com/api/auth/register', postData);
       if (response.status === 201) {
         // Registration successful
         console.log('Registration successful');

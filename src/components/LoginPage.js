@@ -32,7 +32,7 @@ function LoginPage() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://finance-tracker-production.up.railway.app/api/auth/login', formData);
+      const response = await axios.post('https://finance-tracker-4yvj.onrender.com/api/auth/login', formData);
 
       if (response.status === 200) {
         // Login successful

@@ -20,7 +20,7 @@ function Dashboard() {
 
         if (authToken) {
           // Make the API request with the authorization header
-          const response = await axios.get('https://finance-tracker-production.up.railway.app/api/user/getMetrics', {
+          const response = await axios.get('https://finance-tracker-4yvj.onrender.com/api/user/getMetrics', {
             headers: {
               Authorization: authToken,
             },

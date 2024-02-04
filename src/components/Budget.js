@@ -36,7 +36,7 @@ function Budget() {
       if (authToken) {
         // Make the API request with the authorization header
         const response = await axios.post(
-          'https://finance-tracker-production.up.railway.app/api/user/setBudget',
+          'https://finance-tracker-4yvj.onrender.com/api/user/setBudget',
           formData,
           {
             headers: {

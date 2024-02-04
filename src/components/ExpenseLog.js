@@ -41,7 +41,7 @@ function ExpenseLog() {
 
         if (authToken) {
           // Make the API request with the authorization header
-          const response = await axios.get('https://finance-tracker-production.up.railway.app/api/user/getMetrics', {
+          const response = await axios.get('https://finance-tracker-4yvj.onrender.com/api/user/getMetrics', {
             headers: {
               Authorization: authToken,
             },
@@ -77,7 +77,7 @@ function ExpenseLog() {
       if (authToken) {
         // Make the API request with the authorization header
         const response = await axios.delete(
-          'https://finance-tracker-production.up.railway.app/api/user/deleteExpense',
+          'https://finance-tracker-4yvj.onrender.com/api/user/deleteExpense',
           {
             headers: {
               Authorization: authToken,
@@ -127,7 +127,7 @@ function ExpenseLog() {
       if (authToken && selectedTransactionId) {
         // Make the PUT or PATCH API request with the authorization header and modified details
         const response = await axios.put(
-          `https://finance-tracker-production.up.railway.app/api/user/editExpense`,
+          `https://finance-tracker-4yvj.onrender.com/api/user/editExpense`,
           modifiedDetails,
           {
             headers: {
